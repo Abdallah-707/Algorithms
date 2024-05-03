@@ -4,7 +4,15 @@
 //#define endl "\n "
 #include <random>
 using namespace std;
+/*
+<-----Complexity Analysis----->
+-Space Complexity: O(1)
+-Time Complexity: O(N^2) as there are two nested loops:
 
+One loop to select an element of Array one by one = O(N)
+Another loop to compare that element with every other Array element = O(N)
+So, overall complexity = O(N) * O(N) = O(N*N) = O(N^2)
+*/
 void selectionSort(int arr[], int n){
     int key = 0, j = 0 , min_idx;
     for (int i = 0; i < n - 1; i++) {

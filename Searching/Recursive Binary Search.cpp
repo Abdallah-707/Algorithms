@@ -5,7 +5,7 @@
 using namespace std;
 /*
 <-----Complexity Analysis----->
--Space Complexity: O(1)
+-Space Complexity: O(log N)
 -Time Complexity: O(log N)
 */
 int binarySearch(int arr[], int l, int r, int x)

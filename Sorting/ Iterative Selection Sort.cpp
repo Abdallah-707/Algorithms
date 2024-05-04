@@ -24,7 +24,7 @@ void selectionSort(int arr[], int n){
             }
         }
       // Swap the minimum element with the first element
-        if(min_idx != i){
+        if(min_idx != i){   // For Stable Sort
             swap(arr[min_idx], arr[i]);
         }
     }

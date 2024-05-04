@@ -30,7 +30,6 @@ void printArray(int arr[], int size)
     }
 }
 
-
 signed main() {
 int arr[3] = {3 ,1 ,2};
     insertionSort(arr,sizeof(arr)/sizeof(arr[0]));

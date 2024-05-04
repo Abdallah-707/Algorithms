@@ -26,12 +26,13 @@ void printArray(int arr[], int size)
     int i;
     for (i = 0; i < size; i++) {
         cout << arr[i] << " ";
-        cout << endl;
     }
+    cout << endl;
 }
 
 signed main() {
-int arr[3] = {3 ,1 ,2};
-    insertionSort(arr,sizeof(arr)/sizeof(arr[0]));
-    printArray(arr,sizeof(arr)/sizeof(arr[0]));
+    int arr[3] = {3 ,1 ,2};
+    int size = sizeof(arr)/sizeof(arr[0]);
+    insertionSort(arr,size);
+    printArray(arr,size);
 }
